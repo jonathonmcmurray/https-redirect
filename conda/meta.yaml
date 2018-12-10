@@ -1,0 +1,20 @@
+package:
+  name: https-redir
+  version: 0.1.0
+
+build:
+  number: 0
+  noarch: true
+
+source:
+  git_url: https://github.com/jonathonmcmurray/https-redirect.git
+
+requirements:
+  run:
+    - qutil
+    - req
+
+about:
+  home: https://github.com/jonathonmcmurray/https-redirect
+  license: MIT
+  summary: HTTP to HTTPS redirection for q
