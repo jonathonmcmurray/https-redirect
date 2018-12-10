@@ -39,5 +39,7 @@ h:{[x;y] /x:handler to overwrite,y:HTTP request
 
 \d .
 
-.z.ph:.redir.h[.z.ph]                                                               //GET
-.z.pp:.redir.h[.z.pp]                                                               //POST
+.z.ph:.redir.h[.z.ph]                                                               //GET overwrite
+if[@[{value .z.pp;1b};`;0b];                                                        //check if POST handler is set
+   .z.pp:.redir.h[.z.pp];                                                           //POST overwrite
+  ];
