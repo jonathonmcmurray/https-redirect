@@ -1,5 +1,5 @@
 package:
-  name: https-redir
+  name: https-redirect
   version: 0.1.0
 
 build:

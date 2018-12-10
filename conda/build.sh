@@ -1,6 +1,6 @@
 #!/bin/bash
 
-PKG_NAME="https-redir"
+PKG_NAME="https-redirect"
 
 QHOME=$PREFIX/q
 mkdir -p $QHOME/packages/${PKG_NAME}
