@@ -1,4 +1,8 @@
 # https-redirect
+
+[![Anaconda-Server Badge](https://anaconda.org/jmcmurray/https-redirect/badges/version.svg)](https://anaconda.org/jmcmurray/https-redirect)
+[![Anaconda-Server Badge](https://anaconda.org/jmcmurray/https-redirect/badges/downloads.svg)](https://anaconda.org/jmcmurray/https-redirect)
+
 HTTP to HTTPS redirection for kdb+/q
 
 Simple package enabling HTTP -> HTTPS redirection for a q web server
